@@ -82,6 +82,9 @@
 
 body{padding: 0;margin: 0;box-sizing:border-box;font-family:"Gotham Narrow" !important;}
 em{font-family: 'Aguafina Script', cursive;}
+a:hover {
+	text-decoration: none !important;
+}
 /***********navbar*************/
 /* .navbar-new-top{
     background: #fff;
@@ -204,6 +207,9 @@ sup {
 }
 .form-group {
 	width: 100%;
+}
+.bottom-header.mobile {
+	display: none;
 }
 .form-inline.search-form .btn.btn-primary {
 	background: none;
@@ -577,3 +583,200 @@ footer .col-heading {
   #copyright p {
     margin-bottom: 0px;
     color: #282828; }
+	.icon-last {
+		position: relative;
+	}
+@media screen and (max-width: 1199px) {
+	.last-side {
+		width: 75%;
+		padding-top: 29px;
+	}
+	.social-header img, .social-footer img {
+	
+		max-width: 25px;width:100%;
+	}
+	sup {
+		position: absolute !important;
+		
+	}
+	.banner {
+		min-height: 400px;
+		background-position: top;
+	}
+	footer .col-heading h5 {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:1024px) {
+	.container{max-width:95% !important;}
+}
+@media screen and (max-width: 991px) {
+	#collapsibleNavbar {
+		margin-left: 0;
+	}
+	.text-box h4 {
+		font-size: 30px;
+	}
+	.subscribe .form {
+		max-width: 100%;
+	}
+	.newsletter_vitamin_ovelay {
+		top: 0;
+	}
+	footer {
+		margin-top: 80px;
+	}
+	.social-header img, .social-footer img {
+		max-width: 23px;
+		width: 100%;
+	}
+}
+@media screen and (max-width:768px) {
+.navbar-nav .nav-item a {
+	font-size: 13px;
+}
+.social-header {
+	width: 49%;
+}
+}
+@media screen and (max-width:767px) {
+	.bottom-header.mobile {
+		display: block;
+	}
+	.bottom-header {
+		display: none;
+	}
+.mdb-lightbox {
+	display: block;width: 100%;
+	
+}
+figure img {
+	width: 100%;
+}
+.box-main {
+	margin-bottom: 30px;
+}
+.footer-main {
+	display: block !important;margin: 100px -15px 75px;
+
+}
+footer .left, footer .right {
+	float: left;
+	width: 100%;
+}
+footer .col-heading {
+	position: relative;
+	display: block;
+	width: 100%;
+	float: left;
+}
+.box-main .box-content {
+	padding-top: 50%;
+}
+.first-side {
+	width: 100%;
+	float: initial;
+	display: block;
+	text-align: center;
+}
+.logo img {
+	width: 100%;
+	max-width: 40%;
+}
+.last-side {
+	width: 100%;
+	padding-top: 29px;
+}
+.outer select {
+	width: 100%;
+}
+.form-inline.search-form {
+	width:48%;
+	margin-bottom: 20px;
+	float: left;
+}
+.social-header{
+	display: inline-block;width:49%;text-align: center;
+}
+.outer {
+width: 49%;height: 36px;
+}
+.social-header img, .social-footer img {
+	max-width: 30px;
+	width: 100%;
+}
+#social-6 {
+	float: right;
+}
+.icon-second-last {
+	margin: 0 10px;
+	float: left;
+}
+#collapsibleNavbar {
+	position: absolute;
+	background: #ff5241;
+	width: 100%;
+	top: 60px;
+	padding: 20px;
+	z-index: 1;
+	left: 0;
+}
+.navbar.navbar-expand-md.bg-dark.navbar-dark {
+	padding: 10px 0;width: 100%;
+}
+}
+@media screen and (max-width:599px) {
+	/* .top-header .container {
+		display: flex;flex-wrap:wrap;
+	}
+	.logo img {
+		max-width: 40%;
+		
+	}
+	.form-inline.search-form .btn.btn-primary {
+		
+		top: 0;
+	}
+	.first-side {
+		width: 100%;
+		float: initial;
+		display: block;
+		text-align: center;margin-right: 0px;
+	}
+	.icon-second-last, .icon-last {
+		height: 26px;
+	}
+	.top-header {
+		padding: 20px 0 0px 0px;
+	}
+	.social-header, sup {
+		display: none;
+	}
+	.form-inline.search-form {
+		width: 59%;
+		margin-bottom: 20px;
+		float: left;
+	}
+	.outer {
+		width: auto;
+		height: 36px;
+	} */
+	.col-md-8.text-box h4 {
+		font-size: 20px;
+	}
+	.instagram {
+		padding: 30px 0px;
+	}
+	.subscribe {
+		padding-top: 0px;
+	}
+	footer {
+		margin-top: 0px;background-position: 64%;
+	}
+	.newsletter_vitamin_ovelay {
+		top: 68px;
+	}
+	.sonis {
+		padding: 30px 0;
+	}
+}
