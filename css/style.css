@@ -640,6 +640,27 @@ footer .col-heading {
 }
 }
 @media screen and (max-width:767px) {
+	.liens {
+		display: block;
+	}
+	form h4 {
+		text-align: center;
+	}
+	.newsletter_vitamin_ovelay {
+		top: 71px;
+		right: 0;
+	}
+	.subscribe .form {
+		max-width: 100%;
+		display: block;
+	}
+	.subscribe .form-group {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.subscribe .btn.btn-primary {
+			width: 100%;
+	}
 	.bottom-header.mobile {
 		display: block;
 	}
@@ -761,6 +782,13 @@ width: 49%;height: 36px;
 		width: auto;
 		height: 36px;
 	} */
+	sup {
+		display: none;
+	}
+	.social-header img, .social-footer img {
+		max-width: 20px;
+		width: 100%;
+	}
 	.col-md-8.text-box h4 {
 		font-size: 20px;
 	}
@@ -778,5 +806,54 @@ width: 49%;height: 36px;
 	}
 	.sonis {
 		padding: 30px 0;
+	}
+	.last-side {
+		display: block;margin-bottom: 30px;
+	}
+	.form-inline.search-form {
+		width: 100%;
+		margin-bottom: 20px;
+		float: left;
+	}
+	.social-header {
+		display: block;
+		width: 100%;
+		text-align: center;
+		float: left;
+	}
+	
+	.icon-second-last {
+		float: left;
+		width: auto;
+	}
+	.outer {
+		width: 100%;
+		height: 100%;
+		float: left;
+		max-width: 80%;
+	}
+	.outer select {
+		width: 100%;
+		max-width: 60%;
+	}
+	.icon-last {
+		position: relative;
+		float: left;
+	}
+	.social-header img, .social-footer img {
+		max-width: 30px;
+		width: 100%;
+	}
+	.form-group {
+		margin-bottom: 0 !important;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.outer {
+		width: 100%;
+		height: 100%;
+		float: left;
+		max-width: 70%;
 	}
 }
